@@ -20,4 +20,4 @@ rad = float(input("Enter Radius of Sphere::  \n"))
 
 # Find volume  by 4/3 * π * r3, the value of pi is 3.1415926535897931 predefined
 vol = 4.0/3.0 * 3.1415926535897931 * rad ** 3
-print(truncate(vol, 2))
+print("The Volume of Sphere is %.2f" % vol)
