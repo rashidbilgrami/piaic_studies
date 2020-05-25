@@ -7,9 +7,10 @@ rashidbilgrami@hotmail.com or comments on GITHUB
 # my own function for truncate, you can use format or round but both change the value
 
 
+'''
 def truncate(f, n):
     return math.floor(f * 10 ** n) / 10 ** n
-
+'''
 
 # Print Welcome Message
 print("###### Welcome to Calculate Volume of a sphere ####")
