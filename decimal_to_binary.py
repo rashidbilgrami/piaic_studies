@@ -4,6 +4,8 @@ Rashid Imran Bilgrami, If you have any concerns please email me at
 rashidbilgrami@hotmail.com or comments on GITHUB
 '''
 
+# function for calculating binary number
+
 
 def dc_to_binary(num):
     if num > 1:
@@ -18,5 +20,5 @@ print("###### Welcome to Decimal to Binary Program ####")
 dc_number = int(input("Enter The Decimal Number::  \n"))
 
 
-# Convert decimal to binary
+# call decimal to binary
 dc_to_binary(dc_number)
